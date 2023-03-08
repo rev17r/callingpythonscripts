@@ -1,7 +1,7 @@
 from calculation import *
 
-a = 8
-b = 6
+a = int(input("enter a number: "))
+b = int(input("enter a number: "))
 
 ad = adding(a,b)
 su = subtraction(a,b)

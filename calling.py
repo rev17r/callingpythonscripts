@@ -1,8 +1,11 @@
+import sys 
 from calculation import *
 
-a = int(input("enter a number: "))
-b = int(input("enter a number: "))
-
+a = sys.argv[1]
+b = sys.argv[2]
+   
+a = int(a)
+b = int(b)
 ad = adding(a,b)
 su = subtraction(a,b)
 mu = multiplication(a,b)

@@ -1,11 +1,9 @@
 import sys 
 from calculation import *
 
-a = sys.argv[1]
-b = sys.argv[2]
-   
-a = int(float(a))
-b = int(float(b))
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+
 ad = adding(a,b)
 su = subtraction(a,b)
 mu = multiplication(a,b)

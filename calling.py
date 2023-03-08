@@ -3,8 +3,8 @@ from calculation import *
 
 a = sys.argv[1]
 b = sys.argv[2]
-a = int(a)
-b = int(b)
+a = int(float(a))
+b = int(float(b))
 ad = adding(a,b)
 su = subtraction(a,b)
 mu = multiplication(a,b)
